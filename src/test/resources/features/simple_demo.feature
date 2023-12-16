@@ -6,7 +6,6 @@ Feature: The application should be running
     When I search for "glass teapot"
     Then I should see the results
 
-
   @regression @test2
   Scenario: another search
     Given I am on the home page
